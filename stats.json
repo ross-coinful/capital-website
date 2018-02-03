@@ -1,0 +1,62 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-6475ff99cf93998621e6.js",
+      "component---src-pages-index-js-6475ff99cf93998621e6.js.map"
+    ],
+    "path---": [
+      "path----bbb40859222517e126d1.js",
+      "path----bbb40859222517e126d1.js.map"
+    ],
+    "component---src-pages-approach-js": [
+      "component---src-pages-approach-js-a55a67aa34c6f16f9db0.js",
+      "component---src-pages-approach-js-a55a67aa34c6f16f9db0.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-563a2db6b122d0ed984e.js",
+      "component---src-pages-contact-js-563a2db6b122d0ed984e.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-aeb260ee7638a0f345ad.js",
+      "component---src-layouts-index-js-aeb260ee7638a0f345ad.js.map"
+    ],
+    "component---src-pages-team-js": [
+      "component---src-pages-team-js-f05909de9b0cf1624c52.js",
+      "component---src-pages-team-js-f05909de9b0cf1624c52.js.map"
+    ],
+    "path---index": [
+      "path---index-911d06144de5baf8a2aa.js",
+      "path---index-911d06144de5baf8a2aa.js.map"
+    ],
+    "commons": [
+      "commons-66ba171e281cf640eb06.js",
+      "commons-66ba171e281cf640eb06.js.map"
+    ],
+    "path---contact": [
+      "path---contact-6da63891beec6c4f6359.js",
+      "path---contact-6da63891beec6c4f6359.js.map"
+    ],
+    "path---team": [
+      "path---team-838a5746a3aa6dad211d.js",
+      "path---team-838a5746a3aa6dad211d.js.map"
+    ],
+    "path---investments": [
+      "path---investments-a9dc73c1306a23f9c2c9.js",
+      "path---investments-a9dc73c1306a23f9c2c9.js.map"
+    ],
+    "app": [
+      "app-8919aa4d099470320415.js",
+      "build-js-styles.css",
+      "app-8919aa4d099470320415.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-investments-js": [
+      "component---src-pages-investments-js-7e522d2170bc612081ed.js",
+      "component---src-pages-investments-js-7e522d2170bc612081ed.js.map"
+    ],
+    "path---approach": [
+      "path---approach-8d1c3a3614e2e61182d1.js",
+      "path---approach-8d1c3a3614e2e61182d1.js.map"
+    ]
+  }
+}
