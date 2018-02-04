@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "gatsby-image";
 
 import Navbar from "../components/navbar";
 import jon2x from "../../img/member/member-l-jon2x.jpg";
@@ -107,6 +108,7 @@ export default class Homepage extends React.Component {
               {homepage.members.map((member, i) => {
                 return (
                   <div className="member" key={i}>
+                    {/*<Img className="image" resolutions={data.reddImageMobile.resolutions} />*/}
                     <img className="image" src={this.imgs[`${member.imgThumbnail + size}`]} />
                     <div className="info">
                       <span className="name">{member.name}</span>
@@ -129,6 +131,14 @@ export default class Homepage extends React.Component {
     );
   }
 };
+
+/*
+    reddImageMobile: imageSharp(id: { regex: "/-l-jon2x/" }) {
+      resolutions(width: 1500) {
+        ...GatsbyImageSharpResolutions
+      }
+    }
+*/
 
 export const query = graphql`
   query IndexQuery {

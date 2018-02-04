@@ -249,7 +249,16 @@ module.exports = {
     }
   },
   plugins: [
-    'gatsby-plugin-catch-links'
+    'gatsby-plugin-catch-links',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`
+      }
+    },
+    // 'gatsby-transformer-sharp'
+    // 'gatsby-plugin-sharp'
   ]
   // plugins: [
   //   {

@@ -115,7 +115,7 @@ export default class Team extends React.Component {
 
     return (
       <div className="team">
-        <Navbar data={data} active={navbar.nav3} fixed />
+        <Navbar data={data} fixed />
         <div className="jumbotron">
           <div className="container">
             <Jumbotron caption={team.jumbotron.caption} des={team.jumbotron.des} />
