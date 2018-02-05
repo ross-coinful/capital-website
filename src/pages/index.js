@@ -2,15 +2,6 @@ import React from "react";
 import Img from "gatsby-image";
 
 import Navbar from "../components/navbar";
-import jon2x from "../../img/member/member-l-jon2x.jpg";
-import carlos2x from "../../img/member/member-l-carlos2x.jpg";
-import ludwin2x from "../../img/member/member-l-ludwin2x.jpg";
-import hank2x from "../../img/member/member-l-hank2x.jpg";
-
-import jon from "../../img/member/member-l-jon.jpg";
-import carlos from "../../img/member/member-l-carlos.jpg";
-import ludwin from "../../img/member/member-l-ludwin.jpg";
-import hank from "../../img/member/member-l-hank.jpg";
 
 export default class Homepage extends React.Component {
   constructor() {
@@ -18,17 +9,6 @@ export default class Homepage extends React.Component {
 
     this.state = {
       size: '2x',
-    };
-
-    this.imgs = {
-      jon,
-      carlos,
-      ludwin,
-      hank,
-      jon2x,
-      carlos2x,
-      ludwin2x,
-      hank2x
     };
 
     this.resetHomepagePhoto = this.resetHomepagePhoto.bind(this);
@@ -66,7 +46,7 @@ export default class Homepage extends React.Component {
     const { size } = this.state;
     const { data } = this.props;
     const { homepage, navbar } = data.site.siteMetadata;
-
+    console.log('data', data)
     return (
       <div className="homepage">
         <div className="jumbotron">
@@ -108,8 +88,8 @@ export default class Homepage extends React.Component {
               {homepage.members.map((member, i) => {
                 return (
                   <div className="member" key={i}>
-                    {/*<Img className="image" resolutions={data.reddImageMobile.resolutions} />*/}
-                    <img className="image" src={this.imgs[`${member.imgThumbnail + size}`]} />
+ 
+                    <Img className="image" sizes={data[`${member.imgThumbnail}Image${size}`].sizes} />
                     <div className="info">
                       <span className="name">{member.name}</span>
                       <span className="p1 title">{member.title}</span>
@@ -131,14 +111,6 @@ export default class Homepage extends React.Component {
     );
   }
 };
-
-/*
-    reddImageMobile: imageSharp(id: { regex: "/-l-jon2x/" }) {
-      resolutions(width: 1500) {
-        ...GatsbyImageSharpResolutions
-      }
-    }
-*/
 
 export const query = graphql`
   query IndexQuery {
@@ -181,6 +153,46 @@ export const query = graphql`
             imgThumbnail
           }
         }
+      }
+    }
+    jonImage: imageSharp(id: { regex: "/member-l-jon/" }) {
+      sizes(maxWidth: 800) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    jonImage2x: imageSharp(id: { regex: "/member-l-jon2x/" }) {
+      sizes(maxWidth: 3000) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    carlosImage: imageSharp(id: { regex: "/member-l-carlos/" }) {
+      sizes(maxWidth: 800) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    carlosImage2x: imageSharp(id: { regex: "/member-l-carlos2x/" }) {
+      sizes(maxWidth: 3000) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    ludwinImage: imageSharp(id: { regex: "/member-l-ludwin/" }) {
+      sizes(maxWidth: 800) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    ludwinImage2x: imageSharp(id: { regex: "/member-l-ludwin2x/" }) {
+      sizes(maxWidth: 3000) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    hankImage: imageSharp(id: { regex: "/member-l-hank/" }) {
+      sizes(maxWidth: 800) {
+        ...GatsbyImageSharpSizes_tracedSVG
+      }
+    }
+    hankImage2x: imageSharp(id: { regex: "/member-l-hank2x/" }) {
+      sizes(maxWidth: 3000) {
+        ...GatsbyImageSharpSizes_tracedSVG
       }
     }
   }

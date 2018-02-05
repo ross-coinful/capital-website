@@ -2,14 +2,14 @@ import React from "react";
 
 import Jumbotron from "../components/jumbotron";
 import Navbar from "../components/navbar";
-import jonM from "../../img/member/member-m-jon.jpg";
-import carlosM from "../../img/member/member-m-carlos.jpg";
-import ludwinM from "../../img/member/member-m-ludwin.jpg";
-import hankM from "../../img/member/member-m-hank.jpg";
-import jonS from "../../img/member/member-s-jon.jpg";
-import carlosS from "../../img/member/member-s-carlos.jpg";
-import ludwinS from "../../img/member/member-s-ludwin.jpg";
-import hankS from "../../img/member/member-s-hank.jpg";
+import jonM from "../img/member/member-m-jon.jpg";
+import carlosM from "../img/member/member-m-carlos.jpg";
+import ludwinM from "../img/member/member-m-ludwin.jpg";
+import hankM from "../img/member/member-m-hank.jpg";
+import jonS from "../img/member/member-s-jon.jpg";
+import carlosS from "../img/member/member-s-carlos.jpg";
+import ludwinS from "../img/member/member-s-ludwin.jpg";
+import hankS from "../img/member/member-s-hank.jpg";
 
 export default class Team extends React.Component {
   constructor(props) {
