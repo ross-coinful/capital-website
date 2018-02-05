@@ -29,8 +29,8 @@
       "path---index-911d06144de5baf8a2aa.js.map"
     ],
     "commons": [
-      "commons-39ffc30a51ac1e5bd540.js",
-      "commons-39ffc30a51ac1e5bd540.js.map"
+      "commons-c112e22cc4d9a9a7be81.js",
+      "commons-c112e22cc4d9a9a7be81.js.map"
     ],
     "path---contact": [
       "path---contact-6da63891beec6c4f6359.js",
@@ -45,9 +45,9 @@
       "path---investments-a9dc73c1306a23f9c2c9.js.map"
     ],
     "app": [
-      "app-bef2afff4964e74e68ab.js",
+      "app-0e4136a4d55b978fc0ab.js",
       "build-js-styles.css",
-      "app-bef2afff4964e74e68ab.js.map",
+      "app-0e4136a4d55b978fc0ab.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-investments-js": [
