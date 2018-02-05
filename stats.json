@@ -17,8 +17,8 @@
       "component---src-pages-contact-js-563a2db6b122d0ed984e.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-aeb260ee7638a0f345ad.js",
-      "component---src-layouts-index-js-aeb260ee7638a0f345ad.js.map"
+      "component---src-layouts-index-js-1f57a02d7623d384fbd3.js",
+      "component---src-layouts-index-js-1f57a02d7623d384fbd3.js.map"
     ],
     "component---src-pages-team-js": [
       "component---src-pages-team-js-b74787106274729ed85e.js",
@@ -29,8 +29,8 @@
       "path---index-911d06144de5baf8a2aa.js.map"
     ],
     "commons": [
-      "commons-b2e652ace119895ec735.js",
-      "commons-b2e652ace119895ec735.js.map"
+      "commons-76e6ec33d1b4d6b9b87c.js",
+      "commons-76e6ec33d1b4d6b9b87c.js.map"
     ],
     "path---contact": [
       "path---contact-6da63891beec6c4f6359.js",
@@ -45,9 +45,9 @@
       "path---investments-a9dc73c1306a23f9c2c9.js.map"
     ],
     "app": [
-      "app-534ffa03223d2aa7b9a0.js",
+      "app-bb5dbb32944bbb965c39.js",
       "build-js-styles.css",
-      "app-534ffa03223d2aa7b9a0.js.map",
+      "app-bb5dbb32944bbb965c39.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-investments-js": [
